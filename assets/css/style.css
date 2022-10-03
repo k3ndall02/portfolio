@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+header{
+    background-color: #16425b;
+    padding: 10px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    background-color: #2f6690;
+    border-radius: 70%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header nav h1{
+    
+    color: whitesmoke;
+}
+header nav ul{
+    display:flex;
+    justify-content: end;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 3vw;
+}
+
+header nav ul li a:link{
+    text-decoration: none;
+    color: whitesmoke;
+}
