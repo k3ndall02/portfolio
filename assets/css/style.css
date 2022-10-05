@@ -15,13 +15,14 @@ header nav{
 }
 #logo{
     background-color: #2f6690;
-    border-radius: 70%;
+    border-radius: 0%;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 25px;
 }
 header nav h1{
     
-    color: whitesmoke;
+    color: rgb(248, 116, 45);
 }
 header nav ul{
     display:flex;
@@ -33,7 +34,21 @@ header nav ul li{
     margin-left: 3vw;
 }
 
-header nav ul li a:link{
-    text-decoration: none;
-    color: whitesmoke;
+header nav ul li a:link{ 
+    color: rgb(248, 116, 45);
+    font-size: 25px;
+    text-decoration: underline;
 }
+
+/* Image Placeholder - City Skyline */
+section img{
+    padding-top: 10px ;
+}
+
+/* About Me */
+main aside h2{
+    font-size: 50px;
+    padding-left: 350px;
+    padding-top: 50px;
+}
+
