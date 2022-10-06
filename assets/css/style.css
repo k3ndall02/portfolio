@@ -15,9 +15,9 @@ header nav{
 }
 #logo{
     background-color: #2f6690;
-    border-radius: 0%;
-    padding-left: 5px;
-    padding-right: 5px;
+    border-radius: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 25px;
 }
 header nav h1{
@@ -52,3 +52,26 @@ main aside h2{
     padding-top: 50px;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    background-color: orange;
+    justify-content: center;
+} 
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    color: blue;
+    margin: 10px;
+}
