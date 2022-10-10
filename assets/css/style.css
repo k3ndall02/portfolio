@@ -36,23 +36,23 @@ a:hover{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 25px;
-} 
+} */
 
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
 
-body { 
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
   }
 
 figure {
-    border: 4px solid rgb(248, 116, 45);
+    border: 10px solid rgb(248, 116, 45);
     margin: 5px;
     padding: 10px;
     transition: all 2s ease-in-out;
@@ -60,7 +60,7 @@ figure {
 
 :root{
     /* spacing */
-    --spacing-unit: 24px;
+    --spacing-unit: 50px;
     --spacing-unit-small: 12px;
     --spacing-unit-tiny: 6px;
   }
