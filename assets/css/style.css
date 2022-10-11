@@ -88,13 +88,25 @@ ul {
 }
 
 .box {
-    flex: 1;
     background: whitesmoke;
-    color: rgb(53, 32, 22);
     border-radius: 10px;
-    margin: 20px 10px;
     box-shadow: 0 5px 10px rgb(244,121,51);
+    color: rgb(53, 32, 22);
+    display: inline-block;
+    flex: 1;
+    margin: 20px 10px;
     padding: 15px 20px;
+}
+
+.box a img {
+    width: 35%;
+}
+
+.box img {
+    width: 30%;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: -20px;
 }
 
 .box i {
