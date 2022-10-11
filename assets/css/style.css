@@ -6,13 +6,13 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     color: rgb(244,121,51);
     background-color: rgb(84, 52, 38);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -46,12 +46,19 @@ ul {
 
 .navbar a {
     color: whitesmoke;
-    text-decoration: underline;
+    float: right;
     font-size: larger;
     font-weight: 500;
+    text-decoration: underline;
 }
 
 .navbar a:hover{
+    background-color: rgb(53, 32, 22);
+    color: rgb(244,121,51);
+}
+
+.navbar a.active {
+    background-color: whitesmoke;
     color: rgb(244,121,51);
 }
 
@@ -99,14 +106,18 @@ ul {
 }
 
 .box a img {
-    width: 35%;
+    width: 100%;
 }
 
 .box img {
     width: 30%;
     height: 350px;
     padding-left: 20px;
-    padding-right: -20px;
+}
+
+.bottom-left {
+    color: black;
+    position: absolute;
 }
 
 .box i {
