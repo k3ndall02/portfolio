@@ -14,7 +14,7 @@ Within the <section> there is 4 <h2> tags with the title of each section 'About 
 
 In the 'About Me' section I added 3 <img> tags within a <div> to display 3 images that currently represents me. Under that will be a <p> tag to allow me to write about myself.
 
-The 'Projects' and 'Resume' sections also includes an <img> tag but they are linked to a href attribute within an <a> tag that allows you to visit a different webpage after clicking on the image.
+The 'Projects' and 'Resume' sections also includes an <img> tag but they are linked to a href attribute within an <a> tag that allows you to visit a different webpage after clicking on the image. There is also a <div> tag with a bottom-left class underneath the <img> tag that will display text over the image.
 
 The last section is the 'Contacts' section that has my email and phone number. The <a> tag has the URL link to my email address but instead of it displaying the entire email, I gave it a title of 'Send Email'. Once you click the 'Send Email' link a window will pop up and allow someone to contact me through email. Then I created a <p> tag to display my phone number underneath the email link.
 
